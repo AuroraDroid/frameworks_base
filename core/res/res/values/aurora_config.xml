@@ -11,4 +11,7 @@
     <!-- Whether device supports in-display fingerprint -->
     <bool name="config_supportsUdfps">false</bool>
 
+    <!-- Parallel space badge -->
+    <string name="parallel_space_badge_label">%1$s</string>
+
 </resources>
