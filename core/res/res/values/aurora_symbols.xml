@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 AuroraDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <java-symbol type="bool" name="config_supportsScreenOffUdfps" />
+
+    <!-- Whether device supports in-display fingerprint -->
+    <java-symbol type="bool" name="config_supportsUdfps" />
+</resources>
