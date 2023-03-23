@@ -11,6 +11,4 @@
     <!-- Whether device supports in-display fingerprint -->
     <bool name="config_supportsUdfps">false</bool>
 
-    <!-- Whether to allow network traffic on statusbar -->
-    <bool name="config_supportsNetworkTrafficOnStatusBar">true</bool>
 </resources>
