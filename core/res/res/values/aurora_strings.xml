@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 euclidOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Settings Restart -->
+    <string name="settings_restart_title">Settings restart required</string>
+    <string name="settings_restart_message">For all changes to take effect, a Settings app restart is required. Restart Settings app now?</string>
+
+    <!-- System Reboot -->
+    <string name="system_restart_title">System restart required</string>
+    <string name="system_restart_message">For all the changes to take effect, a system restart is required. Perform system restart now?</string>
+</resources>
