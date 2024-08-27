@@ -34,7 +34,7 @@ import android.util.Log;
 
 import java.util.Calendar;
 
-import com.android.internal.util.crdroid.PixelPropsUtils;
+import com.android.internal.util.aurora.AttestationHooks;
 
 /**
  * @hide This should not be made public in its present form because it
@@ -287,7 +287,7 @@ public class KeyStore2 {
 
         KeyEntryResponse response = handleRemoteExceptionWithRetry((service) -> service.getKeyEntry(descriptor));
 
-        return PixelPropsUtils.onGetKeyEntry(response);
+        return AttestationHooks.onGetKeyEntry(response);
     }
 
     /**
