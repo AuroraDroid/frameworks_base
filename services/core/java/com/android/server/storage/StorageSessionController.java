@@ -86,9 +86,6 @@ public final class StorageSessionController {
 
         UserInfo userInfo = mUserManager.getUserInfo(vol.mountUserId);
         if (userInfo != null && isMediaSharedWithParent) {
-            if (userInfo.isParallel()) {
-                return userInfo.parallelParentId;
-            }
             // Clones use the same connection as their parent
             return userInfo.profileGroupId;
         } else {
